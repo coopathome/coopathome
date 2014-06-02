@@ -12,12 +12,22 @@ module.exports = function(grunt) {
                 dest: 'build/js/production.js',
             }
         },
-        uglify: {
-            build: {
-                src: 'build/js/production.js',
-                dest: 'build/js/production.min.js'
-            }
-        },
+//        uglify: {
+//            build: {
+//                src: 'build/js/production.js',
+//                dest: 'build/js/production.min.js'
+//            }
+//        },
+		uglify: {
+		    my_target: {
+		      files: [{
+		          expand: true,
+		          cwd: 'js',
+		          src: '**/*.js',
+		          dest: 'build/js'
+		      }]
+		    }
+		  },
         autoprefixer: {
                     dist: {
                         files: {
@@ -43,7 +53,30 @@ module.exports = function(grunt) {
 //            dest: 'release/css/',
 //            ext: '.min.css'
 //          }
-//        }
+//        },
+		  htmlmin: {                                     // Task
+		    dist: {                                      // Target
+		      options: {                                 // Target options
+		        removeComments: true,
+		        collapseWhitespace: true,
+		        minifyJS: true,
+		        minifyCSS: true
+		      },
+		      files: {                                   // Dictionary of files
+		        'build/index.html': 'index.html',     // 'destination': 'source'
+		      }
+		    },
+
+		  },
+		  cssmin: {
+		    minify: {
+		      expand: true,
+		      cwd: 'css/',
+		      src: ['*.css', '!*.min.css'],
+		      dest: 'build/css/',
+		      ext: '.min.css'
+		    }
+		  }
 
     });
 
@@ -53,8 +86,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'autoprefixer']);
+    grunt.registerTask('default', ['htmlmin', 'uglify', 'autoprefixer', 'cssmin', 'imagemin']);
 
 };
