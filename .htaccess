@@ -1,3 +1,6 @@
+ErrorDocument 404 /page-404.html
+ErrorDocument 403 /403.html
+
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 1 week"

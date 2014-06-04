@@ -64,6 +64,11 @@ module.exports = function(grunt) {
 		      },
 		      files: {                                   // Dictionary of files
 		        'build/index.html': 'index.html',     // 'destination': 'source'
+		        'build/design.html': 'design.html',
+		        'build/living.html': 'living.html',
+		        'build/delivery.html': 'delivery.html',
+		        'build/contact.html': 'contact.html',
+		      	'build/sdnet/index.html': 'sdnet/index.html',
 		      }
 		    },
 
