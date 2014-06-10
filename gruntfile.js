@@ -41,7 +41,8 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'img/',
                     src: ['**/*.{png,jpg,gif,jpeg}'],
-                    dest: 'build/img/'
+                    dest: 'build/img/',
+                    progressive: true
                 }]
             }
         },
@@ -69,7 +70,17 @@ module.exports = function(grunt) {
 		        'build/delivery.html': 'delivery.html',
 		        'build/contact.html': 'contact.html',
 		      	'build/sdnet/index.html': 'sdnet/index.html',
+		      	'build/sdnet.html': 'sdnet.html',
+		      	'build/returns.html': 'returns.html',
+		      	'build/repair.html': 'repair.html',
+		      	'build/photography.html': 'photography.html',
 		      }
+//		      files: [{
+//                  expand: true,
+//                  cwd: '',
+//                  src: '{,*/}*.html',
+//                  dest: 'build/'
+//              }]
 		    },
 
 		  },
