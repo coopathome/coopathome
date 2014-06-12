@@ -11,7 +11,7 @@ ExpiresByType text/css "access 1 week"
 ExpiresByType text/js "access 2 weeks"
 ExpiresByType application/pdf "access 1 month"
 ExpiresByType text/x-javascript "access 2 weeks"
-ExpiresByType application/javascript "access 2 weeks"  
+ExpiresByType application/javascript "access 2 weeks"
 ExpiresByType application/x-javascript "access 2 weeks"
 ExpiresByType image/x-icon "access 1 month"
 ExpiresDefault "access 2 days"
@@ -22,3 +22,10 @@ ExpiresDefault "access 2 days"
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
 </ifmodule>
 # END GZIP
+
+# This allows you to redirect index.html to a specific subfolder
+Redirect /sdnet.html http://sdnet.coopathome.ca
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
