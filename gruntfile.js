@@ -1,10 +1,10 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here 
+    // 1. All configuration goes here
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        concat: {   
+        concat: {
             dist: {
                 src: [
                     'js/*.js' // All JS in the libs folder
@@ -64,16 +64,25 @@ module.exports = function(grunt) {
 		        minifyCSS: true
 		      },
 		      files: {                                   // Dictionary of files
-		        'build/index.html': 'index.html',     // 'destination': 'source'
-		        'build/design.html': 'design.html',
-		        'build/living.html': 'living.html',
-		        'build/delivery.html': 'delivery.html',
-		        'build/contact.html': 'contact.html',
-		      	'build/sdnet/index.html': 'sdnet/index.html',
-		      	'build/sdnet.html': 'sdnet.html',
-		      	'build/returns.html': 'returns.html',
-		      	'build/repair.html': 'repair.html',
-		      	'build/photography.html': 'photography.html',
+		        'build/403.html': '403.html',
+	            'build/about.html': 'about.html',
+	            'build/appliances.html': 'appliances.html',
+	            'build/av.html': 'av.html',
+	            'build/computers.html': 'computers.html',
+	            'build/consult.html': 'consult.html',
+	            'build/contact.html': 'contact.html',
+			    'build/delivery.html': 'delivery.html',
+	            'build/design.html': 'design.html',
+	            'build/ehf.html': 'ehf.html',
+	            'build/index.html': 'index.html',     // 'destination': 'source'
+			    'build/living.html': 'living.html',
+	            'build/page-404.html': 'page-404.html',
+	            'build/photography.html': 'photography.html',
+	            'build/returns.html': 'returns.html',
+	            'build/repair.html': 'repair.html',
+	            'build/sdnet/index.html': 'sdnet/index.html',
+			    'build/sdnet.html': 'sdnet.html',
+	            'build/specials.html': 'specials.html',
 		      }
 //		      files: [{
 //                  expand: true,
