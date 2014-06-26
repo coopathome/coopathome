@@ -1,4 +1,4 @@
-ErrorDocument 404 /page-404.html
+ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
 
 <IfModule mod_expires.c>
@@ -26,6 +26,6 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 # This allows you to redirect index.html to a specific subfolder
 Redirect /sdnet.html http://sdnet.coopathome.ca
 
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.html [NC,L]
