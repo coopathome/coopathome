@@ -1,6 +1,12 @@
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
 
+redirect 302 /specials.html /index.html
+
+#RewriteEngine On
+#RewriteCond /%{REQUEST_FILENAME}.html -f
+#RewriteRule ^([a-zA-Z0-9_-\s]+)/$ /$1.html
+
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 1 week"
@@ -23,7 +29,7 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 </ifmodule>
 # END GZIP
 
-# This allows you to redirect index.html to a specific subfolder
+# This allows you to redirect to a specific subfolder
 Redirect /sdnet.html http://sdnet.coopathome.ca
 
 #RewriteEngine On
