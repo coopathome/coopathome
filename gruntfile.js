@@ -65,6 +65,7 @@ module.exports = function(grunt) {
 		      },
 		      files: {                                   // Dictionary of files
 		        'build/403.html': '403.html',
+	            'build/404.html': '404.html',
 	            'build/about.html': 'about.html',
 	            'build/appliances.html': 'appliances.html',
 	            'build/av.html': 'av.html',
@@ -76,8 +77,6 @@ module.exports = function(grunt) {
 	            'build/ehf.html': 'ehf.html',
 	            'build/index.html': 'index.html',     // 'destination': 'source'
 			    'build/living.html': 'living.html',
-	            'build/404.html': '404.html',
-	            'build/403.html': '403.html',
 	            'build/photography.html': 'photography.html',
 	            'build/returns.html': 'returns.html',
 	            'build/repair.html': 'repair.html',

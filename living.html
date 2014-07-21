@@ -451,7 +451,15 @@ window.analytics.page();
   <div class="container">
     <div class="row">
       <div class="span12"> <!-- Cards -->
-        <p class="text-center">  <a href="index.html"><img src="img/logo-small.png" alt="logo" width="200" /></a><br>&copy; 2013</p>
+        <p class="text-center">  
+        	<a href="index.html"><img src="img/logo-small.png" alt="logo" width="200" /></a>
+        	<br>&copy; 2013–
+        	<script type="text/javascript">
+        		var currentDate = new Date()
+        	  	var year = currentDate.getFullYear()
+        	 	document.write(year)
+        	</script>
+        </p>
       </div>
     </div>
   </div>
