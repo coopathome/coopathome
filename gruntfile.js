@@ -59,9 +59,11 @@ module.exports = function(grunt) {
 		    dist: {                                      // Target
 		      options: {                                 // Target options
 		        removeComments: true,
+		        removeCommentsFromCDATA: true,
 		        collapseWhitespace: true,
 		        minifyJS: true,
-		        minifyCSS: true
+		        minifyCSS: true,
+//		        ignoreCustomComments: true
 		      },
 		      files: {                                   // Dictionary of files
 		        'build/403.html': '403.html',
