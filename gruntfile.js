@@ -29,21 +29,23 @@ module.exports = function(grunt) {
 		    }
 		  },
         autoprefixer: {
-                    dist: {
-                        files: {
-                            'build/css/style.css': 'css/style.css'
-                        }
-                    }
-                },
+            dist: {
+                files: {
+                    'css/autoprefixed.css': 'css/global.css'
+                }
+            }
+        },
         imagemin: {
             dynamic: {
+            	options: {
+            		progressive: true
+            	},
                 files: [{
                     expand: true,
                     cwd: 'img/',
                     src: ['**/*.{png,jpg,gif,jpeg}'],
                     dest: 'build/img/',
-                    progressive: true
-                }]
+                }],
             }
         },
 //        cssmin: {
@@ -96,6 +98,17 @@ module.exports = function(grunt) {
 		    },
 
 		  },
+		  sass: {                              // Task
+		      dist: {                            // Target
+		        options: {                       // Target options
+		          style: 'expanded'
+		        },
+		        files: {                         // Dictionary of files
+		          'css/global.css': 'scss/global.scss',       // 'destination': 'source'
+		        }
+		      }
+		    },
+		    
 		  cssmin: {
 		    minify: {
 		      expand: true,
@@ -116,8 +129,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['htmlmin', 'uglify', 'autoprefixer', 'cssmin', 'imagemin']);
+    grunt.registerTask('default', ['htmlmin', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'imagemin']);
 
 };
