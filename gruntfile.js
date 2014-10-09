@@ -86,6 +86,7 @@ module.exports = function(grunt) {
 	            'build/repair.html': 'repair.html',
 	            'build/sdnet/index.html': 'sdnet/index.html',
 			    'build/sdnet.html': 'sdnet.html',
+			    'build/financing.html': 'financing.html',
 	            'build/specials.html': 'specials.html',
 	            'build/help/index.html': 'help/index.html',
 		      }
