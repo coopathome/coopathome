@@ -3,8 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="description" content="Co-op at Home is an electronics, appliance and computer store serving Winkler and the rest of Southern Manitoba. Earn and use equity on purchases of Apple, Microsoft, Broil King, Whirlpool, Samsung, Canon, Lenovo, Nikon, KitchenAid and Yamaha products.">
-	<meta name="keywords" content="Coop@Home, coop, co-op, coop at home, home, appliances, cooking, range, oven, stove, fridge, cooling, freezer, dishwasher, otr, over the range, fan, range hood, microwave, henkels, zwilling, mixer, toaster, coffee maker, blender, sodastream, whirlpool, jenn air, kitchen aid, samsung, amana, audio, video, tv, television, samsung, panasonic, sharp, lg, sony, amp, yamaha, nad, niles, nuvo, surgex, home, satelite, bell, shaw, computer, apple, microsoft, lenovo, logitech, macbook, macbook air, macbook pro, imac, mac mini, ipod, ipad, ipad mini, android, tablet, mouse, keyboard, laptop, pc, all in one, monitor, printer, ink, toner, phone, router, bags, cases, software, outdoor, living, fountains, lawn, mower, snow, thrower, chiars, camping, grills, gas, charcoal, broil king, napoleon, weber, smokers, louisiana, grilling, accessoreis, lawn furniture, camera, video, photo, photography, accessories, stands, slr, mirrorless, media, storage, sd card, battery, bags, cases, lighting, lenses, lens, point and shoot, canon, nikon, pantax, sony, samsung, winkler, manitoba, southern manitoba">
+	<meta name="description" content="Co-op at Home is an electronics, appliances, furniture and computer store serving Winkler and the rest of Southern Manitoba. Earn and use equity on purchases of Apple, Microsoft, Broil King, Whirlpool, Samsung, Canon, Lenovo, Nikon, KitchenAid and Ashley products.">
+<!--	<meta name="keywords" content="Coop@Home, coop, co-op, coop at home, home, appliances, cooking, range, oven, stove, fridge, cooling, freezer, dishwasher, otr, over the range, fan, range hood, microwave, henkels, zwilling, mixer, toaster, coffee maker, blender, sodastream, whirlpool, jenn air, kitchen aid, samsung, amana, audio, video, tv, television, samsung, panasonic, sharp, lg, sony, amp, yamaha, nad, niles, nuvo, surgex, home, satelite, bell, shaw, computer, apple, microsoft, lenovo, logitech, macbook, macbook air, macbook pro, imac, mac mini, ipod, ipad, ipad mini, android, tablet, mouse, keyboard, laptop, pc, all in one, monitor, printer, ink, toner, phone, router, bags, cases, software, outdoor, living, fountains, lawn, mower, snow, thrower, chiars, camping, grills, gas, charcoal, broil king, napoleon, weber, smokers, louisiana, grilling, accessoreis, lawn furniture, camera, video, photo, photography, accessories, stands, slr, mirrorless, media, storage, sd card, battery, bags, cases, lighting, lenses, lens, point and shoot, canon, nikon, pantax, sony, samsung, winkler, manitoba, southern manitoba">-->
 	<meta name="author" content="Coop@home">
 	<title itemprop="name">Co-op@home</title>
 	<!--<script src="js/loadCSS.min.js" type="text/javascript"></script>
@@ -58,6 +58,12 @@
 	<script type="text/javascript" src="js/functions.js"></script>
 	<script type="text/javascript" src="js/segment.js"></script>
 	<script src="js/modernizr.custom.js"></script>
+	
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+	</script>
+	<script src="js/picturefill.min.js" async></script>
 	
 	<!--<script src="js/production.min.js">-->
 	
@@ -188,27 +194,257 @@
           <!--<li><img src="img/banner/slider22.jpg" alt="Galaxy Tab Pro" /></li>
           <li><img src="img/banner/slider23.jpg" alt="Samsung 43-inch Plasma F4500 Series TV SALE $399" /></li>
           <li><img src="img/banner/slider24.jpg" alt="SAMSUNG  65-inch HU9000 UHD TV" /></li>-->
-          <li><img src="img/banner/slider1.jpg" alt="whirlpool appliances" /></li>
-          <li><img src="img/banner/slider2.jpg" alt="apple authorized reseller" /></li>
+			<li>
+				<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="img/banner/slider1.jpg, img/banner/slider1.jpg 2x" media="(min-width: 800px)">
+					<source srcset="img/banner/slider1-m.jpg, img/banner/slider1.jpg 2x" media="(min-width: 600px)">
+					<source srcset="img/banner/slider1-sm.jpg, img/banner/slider1-m.jpg 2x" media="(min-width: 0px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="img/banner/slider1.jpg, img/banner/slider1.jpg 2x" alt="whirlpool appliances">
+					<noscript>
+						<img src="img/banner/slider1.jpg" alt="whirlpool appliances">
+					</noscript>
+				</picture>
+			</li>
+			<li>
+				<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="img/banner/slider2.jpg, img/banner/slider2.jpg 2x" media="(min-width: 800px)">
+					<source srcset="img/banner/slider2-m.jpg, img/banner/slider2.jpg 2x" media="(min-width: 600px)">
+					<source srcset="img/banner/slider2-sm.jpg, img/banner/slider2-m.jpg 2x" media="(min-width: 0px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="img/banner/slider2.jpg, img/banner/slider2.jpg 2x" alt="apple authorized reseller">
+					<noscript>
+						<img src="img/banner/slider2.jpg" alt="apple authorized reseller">
+					</noscript>
+				</picture>
+			</li>
           <!--<li><img src="img/banner/slider3.jpg" alt="psb speakers" /></li>-->
-          <li><img src="img/banner/slider4.jpg" alt="canon cameras" /></li>
-          <li><img src="img/banner/slider5.jpg" alt="broil king barbeques" /></li>
-          <li><img src="img/banner/slider6.jpg" alt="yamaha surround receivers" /></li>
-          <li><img src="img/banner/slider7.jpg" alt="napolean gourmet grills" /></li>
-          <li><img src="img/banner/slider8.jpg" alt="nikon cameras" /></li>
-          <li><img src="img/banner/slider9.jpg" alt="samsung appliances" /></li>
-          <!--<li><img src="img/banner/slider10.jpg" alt="napolean fireplaces" /></li>-->
-          <li><img src="img/banner/slider11.jpg" alt="polk speakers" /></li>
-          <!--<li><img src="img/banner/slider12.jpg" alt="sony vaio computers" /></li>-->
-          <li><img src="img/banner/slider13.jpg" alt="klipsch audio" /></li>
-          <li><img src="img/banner/slider14.jpg" alt="lenovo computers" /></li>
-          <li><img src="img/banner/slider15.jpg" alt="pentax cameras" /></li>
-          <li><img src="img/banner/slider16.jpg" alt="jenn-air appliances" /></li>
-          <li><img src="img/banner/slider17.jpg" alt="kitchen-aid appliances" /></li>
-          <li><img src="img/banner/slider18.jpg" alt="henckels kitchen utensils" /></li>
-          <li><img src="img/banner/slider19.jpg" alt="winkler web design" /></li>
-          <li><img src="img/banner/slider20.jpg" alt="sdnet rural wireless high speed internet" /></li>
-          <li><img src="img/banner/slider21.jpg" alt="winkler computer service" /></li>
+          	<li>
+          		<picture>
+          			<!--[if IE 9]><video style="display: none;"><![endif]-->
+          			<source srcset="img/banner/slider4.jpg, img/banner/slider4.jpg 2x" media="(min-width: 800px)">
+          			<source srcset="img/banner/slider4-m.jpg, img/banner/slider4.jpg 2x" media="(min-width: 600px)">
+          			<source srcset="img/banner/slider4-sm.jpg, img/banner/slider4-m.jpg 2x" media="(min-width: 0px)">
+          			<!--[if IE 9]></video><![endif]-->
+          			<img srcset="img/banner/slider4.jpg, img/banner/slider4.jpg 2x" alt="canon cameras">
+          			<noscript>
+          				<img src="img/banner/slider4.jpg" alt="canon cameras">
+          			</noscript>
+          		</picture>
+          	</li>
+          <!--<li><img src="img/banner/slider4.jpg" alt="canon cameras" /></li>-->
+          	<li>
+	      		<picture>
+	      			<!--[if IE 9]><video style="display: none;"><![endif]-->
+	      			<source srcset="img/banner/slider5.jpg, img/banner/slider5.jpg 2x" media="(min-width: 800px)">
+	      			<source srcset="img/banner/slider5-m.jpg, img/banner/slider5.jpg 2x" media="(min-width: 600px)">
+	      			<source srcset="img/banner/slider5-sm.jpg, img/banner/slider5-m.jpg 2x" media="(min-width: 0px)">
+	      			<!--[if IE 9]></video><![endif]-->
+	      			<img srcset="img/banner/slider5.jpg, img/banner/slider5.jpg 2x" alt="Broil King Barbeques">
+	      			<noscript>
+	      				<img src="img/banner/slider5.jpg" alt="Broil King Barbeques">
+	      			</noscript>
+	      		</picture>
+			</li>
+          <!--<li><img src="img/banner/slider5.jpg" alt="broil king barbeques" /></li>-->
+          <!--<li><img src="img/banner/slider6.jpg" alt="yamaha surround receivers" /></li>-->
+          	<li>
+	  			<picture>
+	  				<!--[if IE 9]><video style="display: none;"><![endif]-->
+	  				<source srcset="img/banner/slider6.jpg, img/banner/slider6.jpg 2x" media="(min-width: 800px)">
+	  				<source srcset="img/banner/slider6-m.jpg, img/banner/slider6.jpg 2x" media="(min-width: 600px)">
+	  				<source srcset="img/banner/slider6-sm.jpg, img/banner/slider6-m.jpg 2x" media="(min-width: 0px)">
+	  				<!--[if IE 9]></video><![endif]-->
+	  				<img srcset="img/banner/slider6.jpg, img/banner/slider6.jpg 2x" alt="yamaha surround receivers">
+	  				<noscript>
+	  					<img src="img/banner/slider6.jpg" alt="yamaha surround receivers">
+	  				</noscript>
+	  			</picture>
+          	</li>
+          <!--<li><img src="img/banner/slider7.jpg" alt="napolean gourmet grills" /></li>-->
+          	<li>
+          		<picture>
+          			<!--[if IE 9]><video style="display: none;"><![endif]-->
+          			<source srcset="img/banner/slider7.jpg, img/banner/slider7.jpg 2x" media="(min-width: 800px)">
+          			<source srcset="img/banner/slider7-m.jpg, img/banner/slider7.jpg 2x" media="(min-width: 600px)">
+          			<source srcset="img/banner/slider7-sm.jpg, img/banner/slider7-m.jpg 2x" media="(min-width: 0px)">
+          			<!--[if IE 9]></video><![endif]-->
+          			<img srcset="img/banner/slider7.jpg, img/banner/slider7.jpg 2x" alt="napolean gourmet grills">
+          			<noscript>
+          				<img src="img/banner/slider7.jpg" alt="napolean gourmet grills">
+          			</noscript>
+          		</picture>
+          	</li>
+          <!--<li><img src="img/banner/slider8.jpg" alt="nikon cameras" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider8.jpg, img/banner/slider8.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider8-m.jpg, img/banner/slider8.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider8-sm.jpg, img/banner/slider8-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider8.jpg, img/banner/slider8.jpg 2x" alt="nikon cameras">
+      				<noscript>
+      					<img src="img/banner/slider8.jpg" alt="nikon cameras">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider9.jpg" alt="samsung appliances" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider9.jpg, img/banner/slider9.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider9-m.jpg, img/banner/slider9.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider9-sm.jpg, img/banner/slider9-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider9.jpg, img/banner/slider9.jpg 2x" alt="nikon cameras">
+      				<noscript>
+      					<img src="img/banner/slider9.jpg" alt="nikon cameras">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider11.jpg" alt="polk speakers" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider11.jpg, img/banner/slider11.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider11-m.jpg, img/banner/slider11.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider11-sm.jpg, img/banner/slider11-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider11.jpg, img/banner/slider11.jpg 2x" alt="polk audio speakers">
+      				<noscript>
+      					<img src="img/banner/slider11.jpg" alt="polk audio speakers">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider13.jpg" alt="klipsch audio" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider13.jpg, img/banner/slider13.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider13-m.jpg, img/banner/slider13.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider13-sm.jpg, img/banner/slider13-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider13.jpg, img/banner/slider13.jpg 2x" alt="klipsch audio">
+      				<noscript>
+      					<img src="img/banner/slider13.jpg" alt="klipsch audio">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider14.jpg" alt="lenovo computers" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider14.jpg, img/banner/slider14.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider14-m.jpg, img/banner/slider14.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider14-sm.jpg, img/banner/slider14-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider14.jpg, img/banner/slider14.jpg 2x" alt="lenovo computers">
+      				<noscript>
+      					<img src="img/banner/slider14.jpg" alt="lenovo computers">
+      				</noscript>
+      			</picture>
+      		</li>
+<!--          <li><img src="img/banner/slider15.jpg" alt="pentax cameras" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider15.jpg, img/banner/slider15.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider15-m.jpg, img/banner/slider15.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider15-sm.jpg, img/banner/slider15-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider15.jpg, img/banner/slider15.jpg 2x" alt="pentax cameras">
+      				<noscript>
+      					<img src="img/banner/slider15.jpg" alt="pentax cameras">
+      				</noscript>
+      			</picture>
+      		</li>
+         <!-- <li><img src="img/banner/slider16.jpg" alt="jenn-air appliances" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider16.jpg, img/banner/slider16.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider16-m.jpg, img/banner/slider16.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider16-sm.jpg, img/banner/slider16-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider16.jpg, img/banner/slider16.jpg 2x" alt="jenn-air appliances">
+      				<noscript>
+      					<img src="img/banner/slider16.jpg" alt="jenn-air appliances">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider17.jpg" alt="kitchen-aid appliances" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider17.jpg, img/banner/slider17.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider17-m.jpg, img/banner/slider17.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider17-sm.jpg, img/banner/slider17-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider17.jpg, img/banner/slider17.jpg 2x" alt="kitchen-aid appliances">
+      				<noscript>
+      					<img src="img/banner/slider17.jpg" alt="kitchen-aid appliances">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider18.jpg" alt="henckels kitchen utensils" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider18.jpg, img/banner/slider18.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider18-m.jpg, img/banner/slider18.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider18-sm.jpg, img/banner/slider18-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider18.jpg, img/banner/slider18.jpg 2x" alt="henckels kitchen utensils">
+      				<noscript>
+      					<img src="img/banner/slider18.jpg" alt="henckels kitchen utensils">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider19.jpg" alt="winkler web design" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider19.jpg, img/banner/slider19.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider19-m.jpg, img/banner/slider19.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider19-sm.jpg, img/banner/slider19-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider19.jpg, img/banner/slider19.jpg 2x" alt="winkler web designs">
+      				<noscript>
+      					<img src="img/banner/slider19.jpg" alt="winkler web design">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider20.jpg" alt="sdnet rural wireless high speed internet" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider20.jpg, img/banner/slider20.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider20-m.jpg, img/banner/slider20.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider20-sm.jpg, img/banner/slider20-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider20.jpg, img/banner/slider20.jpg 2x" alt="sdnet rural wireless high speed internet">
+      				<noscript>
+      					<img src="img/banner/slider20.jpg" alt="sdnet rural wireless high speed internet">
+      				</noscript>
+      			</picture>
+      		</li>
+          <!--<li><img src="img/banner/slider21.jpg" alt="winkler computer service" /></li>-->
+          	<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<source srcset="img/banner/slider21.jpg, img/banner/slider21.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider21-m.jpg, img/banner/slider21.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider21-sm.jpg, img/banner/slider21-m.jpg 2x" media="(min-width: 0px)">
+      				<!--[if IE 9]></video><![endif]-->
+      				<img srcset="img/banner/slider21.jpg, img/banner/slider21.jpg 2x" alt="winkler computer service">
+      				<noscript>
+      					<img src="img/banner/slider21.jpg" alt="winkler computer service">
+      				</noscript>
+      			</picture>
+      		</li>
         </ul>
       </div>
     </div>

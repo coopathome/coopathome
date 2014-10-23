@@ -118,7 +118,21 @@ module.exports = function(grunt) {
 		      dest: 'build/css/',
 		      ext: '.min.css'
 		    }
-		  }
+		  },
+		  svgmin: {
+		          options: {
+		              plugins: [
+		                  {
+		                      removeViewBox: false
+		                  },
+		              ]
+		          },
+		          dist: {
+		              files: {
+		                  'img/logo.svg': 'build/img/logo.svg'
+		              }
+		          }
+		      }
 
     });
 
@@ -131,8 +145,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-svgmin');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['htmlmin', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'imagemin']);
+    grunt.registerTask('default', ['htmlmin', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'imagemin', 'svgmin']);
 
 };
