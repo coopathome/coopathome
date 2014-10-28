@@ -10503,6 +10503,13 @@ address a:hover {
   font-size: 10px;
 }
 
+.sdnet-special {
+  background: none;
+  color: #007fb5;
+  /* border: 4px solid #007fb5; */
+  color: inherit;
+}
+
 /*
  * jQuery FlexSlider v2.0
  * http://www.woothemes.com/flexslider/

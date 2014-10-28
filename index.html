@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="description" content="Co-op at Home is an electronics, appliances, furniture and computer store serving Winkler and the rest of Southern Manitoba. Earn and use equity on purchases of Apple, Microsoft, Broil King, Whirlpool, Samsung, Canon, Lenovo, Nikon, KitchenAid and Ashley products.">
-<!--	<meta name="keywords" content="Coop@Home, coop, co-op, coop at home, home, appliances, cooking, range, oven, stove, fridge, cooling, freezer, dishwasher, otr, over the range, fan, range hood, microwave, henkels, zwilling, mixer, toaster, coffee maker, blender, sodastream, whirlpool, jenn air, kitchen aid, samsung, amana, audio, video, tv, television, samsung, panasonic, sharp, lg, sony, amp, yamaha, nad, niles, nuvo, surgex, home, satelite, bell, shaw, computer, apple, microsoft, lenovo, logitech, macbook, macbook air, macbook pro, imac, mac mini, ipod, ipad, ipad mini, android, tablet, mouse, keyboard, laptop, pc, all in one, monitor, printer, ink, toner, phone, router, bags, cases, software, outdoor, living, fountains, lawn, mower, snow, thrower, chiars, camping, grills, gas, charcoal, broil king, napoleon, weber, smokers, louisiana, grilling, accessoreis, lawn furniture, camera, video, photo, photography, accessories, stands, slr, mirrorless, media, storage, sd card, battery, bags, cases, lighting, lenses, lens, point and shoot, canon, nikon, pantax, sony, samsung, winkler, manitoba, southern manitoba">-->
+	<!--<meta name="keywords" content="Coop@Home, coop, co-op, coop at home, home, appliances, cooking, range, oven, stove, fridge, cooling, freezer, dishwasher, otr, over the range, fan, range hood, microwave, henkels, zwilling, mixer, toaster, coffee maker, blender, sodastream, whirlpool, jenn air, kitchen aid, samsung, amana, audio, video, tv, television, samsung, panasonic, sharp, lg, sony, amp, yamaha, nad, niles, nuvo, surgex, home, satelite, bell, shaw, computer, apple, microsoft, lenovo, logitech, macbook, macbook air, macbook pro, imac, mac mini, ipod, ipad, ipad mini, android, tablet, mouse, keyboard, laptop, pc, all in one, monitor, printer, ink, toner, phone, router, bags, cases, software, outdoor, living, fountains, lawn, mower, snow, thrower, chiars, camping, grills, gas, charcoal, broil king, napoleon, weber, smokers, louisiana, grilling, accessoreis, lawn furniture, camera, video, photo, photography, accessories, stands, slr, mirrorless, media, storage, sd card, battery, bags, cases, lighting, lenses, lens, point and shoot, canon, nikon, pantax, sony, samsung, winkler, manitoba, southern manitoba">-->
 	<meta name="author" content="Coop@home">
 	<title itemprop="name">Co-op@home</title>
 	<!--<script src="js/loadCSS.min.js" type="text/javascript"></script>
@@ -59,6 +59,15 @@
 	<script type="text/javascript" src="js/segment.js"></script>
 	<script src="js/modernizr.custom.js"></script>
 	
+	<!--SVG Fallback-->
+	<script>
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+	</script>
+	
 	<script>
 	// Picture element HTML5 shiv
 	document.createElement( "picture" );
@@ -107,7 +116,7 @@
 </div>
 
 <!-- Logo --> 
-<a href="index.html" id="logo"><img src="img/logo.png" alt="logo" width="500" itemprop="logo"/></a> 
+<a href="index.html" id="logo"><img src="img/logo.svg" alt="logo" itemprop="logo" style="width: 500px; max-width: 100%;"/></a> 
 
 <!-- Main Navbar -->
 <hr class="bordered" />
@@ -515,8 +524,12 @@
         
         <!-- Service Single -->
         <li class="span4">
-          <div class="thumbnail"><a href="http://sdnet.coopathome.ca/"><br><img src="img/sdnet.png" alt="sdnet" width="220px"></i></a>
-          </div>
+          	<div class="thumbnail">
+          		<a href="http://sdnet.coopathome.ca/"><br>
+          			<img src="img/sdnet.svg" alt="sdnet" style="max-width: 220px;">
+          			<!--<img src="img/sdnet.png">-->
+          		</i></a>
+          	</div>
         </li>
         
         <!-- Service Single -->
@@ -578,15 +591,15 @@
       <!-- Footer Contact -->
       <div class="span3">
         <h5><i class="icon-asterisk"></i>Contact Us</h5>
-        <ul class="footer-contact">
+		<ul class="footer-contact">
           <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="icon-map-marker"></i><span itemprop="streetAddress">555 South Railway</span>, <span itemprop="addressLocality">Winkler</span>.<meta itemprop="addressRegion" content="Manitoba"><meta itemprop="addressCountry" content="Canada"></li>
           <li><i class="icon-phone"></i><strong>T.</strong> <span itemprop="telephone">204-325-8777</span></li>
           <li><i class="icon-mobile-phone"></i><strong>F.</strong> <span itemprop="faxNumber">204 325 9356</span></li>
           <li><i class="icon-facebook"></i><a href="https://www.facebook.com/CoopHome" target="_blank">Facebook</a></li>
           
           <meta itemprop="openingHours" content="Mo-We 09:00-06:00">
-           <meta itemprop="openingHours" content="Th-Fr 09:00-09:00">
-           <meta itemprop="openingHours" content="Sa 09:00-06:00">
+          <meta itemprop="openingHours" content="Th-Fr 09:00-09:00">
+          <meta itemprop="openingHours" content="Sa 09:00-06:00">
           
         </ul>
       </div>
@@ -636,31 +649,37 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="https://plus.google.com/107573968644470588446/" rel="publisher" target="_blank">Google+</a></li>
-                </ul>
+      </ul>
       
-     </div></div></div>
+     </div>
+   </div>
+ </div>
 <br>
 <!-- Copy -->
 <div class="copy">
-  <div class="container">
-    <div class="row">
-      <div class="span12"> <!-- Cards -->
-        <p class="text-center">  
-        	<a href="index.html"><img src="img/logo-small.png" alt="logo" width="200" /></a>
-        	<br>&copy; 2013–
-        	<script type="text/javascript">
-        		var currentDate = new Date()
-        	  	var year = currentDate.getFullYear()
-        	 	document.write(year)
-        	</script>
-        </p>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+    	<div class="row">
+      		<div class="span12"> <!-- Cards -->
+        		<p class="text-center">  
+        			<a href="index.html"><img src="img/logo-small.png" alt="logo" width="200" /></a>
+        			<br>&copy; 2013&ndash;
+		        	<script type="text/javascript">
+		        		var currentDate = new Date()
+		        	  	var year = currentDate.getFullYear()
+		        	 	document.write(year)
+		        	</script>
+		        	&nbsp;|&nbsp;
+		        	A Part of <a href="http://winklercoop.com">Winkler Co-op</a>
+        		</p>
+      		</div>
+    	</div>
+  	</div>
 </div>
 
 <!-- to Top -->
-<div id="toTop"><i class="icon-chevron-up icon-white"></i></div>
+<div id="toTop">
+	<i class="icon-chevron-up icon-white"></i>
+</div>
 
 <div class="md-overlay"></div><!-- the overlay element -->
 
@@ -678,4 +697,3 @@
 		<script src="js/css-filters-polyfill.js"></script>
 </body>
 </html>
-<!-- Localized -->
