@@ -1,2 +1,12 @@
 node_modules
 img_october
+private.key
+sub.class1.server.ca.pem
+ssl.key
+ssl.crt
+index 3.html
+index copy.html
+index_05-13-14.html
+index_14-05-26.html
+ca.pem
+.DS_Store
