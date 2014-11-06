@@ -129,7 +129,8 @@ module.exports = function(grunt) {
 		          },
 		          dist: {
 		              files: {
-		                  'img/logo.svg': 'build/img/logo.svg'
+		                  'img/logo.svg': 'build/img/logo.svg',
+		                  'img/banner/slider20.svg': 'build/img/banner/slider20.svg'
 		              }
 		          }
 		      }
