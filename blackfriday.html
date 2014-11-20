@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="Co-op at Home is an electronics, appliances, furniture and computer store serving Winkler and the rest of Southern Manitoba. Earn and use equity on purchases of Apple, Microsoft, Broil King, Whirlpool, Samsung, Canon, Lenovo, Nikon, KitchenAid and Ashley products. Something Digital and SDNet.">
+	<!--<meta name="keywords" content="Coop@Home, coop, co-op, coop at home, home, appliances, cooking, range, oven, stove, fridge, cooling, freezer, dishwasher, otr, over the range, fan, range hood, microwave, henkels, zwilling, mixer, toaster, coffee maker, blender, sodastream, whirlpool, jenn air, kitchen aid, samsung, amana, audio, video, tv, television, samsung, panasonic, sharp, lg, sony, amp, yamaha, nad, niles, nuvo, surgex, home, satelite, bell, shaw, computer, apple, microsoft, lenovo, logitech, macbook, macbook air, macbook pro, imac, mac mini, ipod, ipad, ipad mini, android, tablet, mouse, keyboard, laptop, pc, all in one, monitor, printer, ink, toner, phone, router, bags, cases, software, outdoor, living, fountains, lawn, mower, snow, thrower, chiars, camping, grills, gas, charcoal, broil king, napoleon, weber, smokers, louisiana, grilling, accessoreis, lawn furniture, camera, video, photo, photography, accessories, stands, slr, mirrorless, media, storage, sd card, battery, bags, cases, lighting, lenses, lens, point and shoot, canon, nikon, pantax, sony, samsung, winkler, manitoba, southern manitoba">-->
+	<meta name="author" content="Coop@home">
+	<title itemprop="name">Co-op@home</title>
+	<!--<script src="js/loadCSS.min.js" type="text/javascript"></script>
+	<script>
+	  // include loadCSS here...
+	  function loadCSS( href, before, media ){ ... }
+	  // load a file
+	  loadCSS( "css/style.css" );
+	</script>-->
+	
+	<!-- Stylesheet -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 7]>
+	  <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/fancybox.css" rel="stylesheet" type="text/css" />
+	<link href="css/masonry.css" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+	<!--<link rel="shortcut icon" href="img/favicon.png" />-->
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	
+	<link rel="shortcut icon" href="img/icons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="img/icons/favicon-196x196.png" sizes="196x196">
+	<link rel="icon" type="image/png" href="img/icons/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#067fb3">
+	<meta name="msapplication-TileImage" content="img/icons/mstile-144x144.png">
+	<meta name="msapplication-config" content="img/icons/browserconfig.xml">
+			
+	<!-- Scripts -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/segment.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style>
+		body, .copy, .header {
+			background: #040707;
+			color: white;
+		}
+		body, h1, h2, h3, h4, h5, h6 {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+			font-weight: 300;
+		}
+		a, .about-list li .thumbnail .caption h3 a {
+			color: #fff;
+		}
+		* {
+			text-rendering: optimizeLegibility !important;
+			     -webkit-font-smoothing: antialiased;
+		}
+		.products-list li .thumbnail {
+			background: none;
+		}
+	</style>
+	
+	<!--SVG Fallback-->
+	<script>
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+	</script>
+	
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+	</script>
+	<script src="js/picturefill.min.js" async></script>
+	
+	<!--<script src="js/production.min.js">-->
+	
+	<script type="text/javascript">
+	window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(a){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(a),window.analytics.push(t),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(a){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+a+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},window.analytics.SNIPPET_VERSION="2.0.6",
+	window.analytics.load("h4thxhma1t"),
+	window.analytics.page();
+	</script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-51402116-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('require', 'linkid', 'linkid.js');
+	  ga('send', 'pageview');
+	
+	</script>
+</head>
+<body itemscope itemtype="http://schema.org/Organization">
+
+<!-- Header -->
+<div class="header">
+	<div class="container">
+    	<div class="row"> 
+     
+      <!--<div class="pricing-table-signup-coop text-center span2" style="float:left;">
+        <h3><a href="http://www.winklercoop.com/2012/" target="_blank"><img src="img/coop.png" alt="co-op" width="120px"></a></h3>
+                </div>-->
+			<div class="pricing-table-signup-facebook text-center span1">
+				<h3><a href="https://www.facebook.com/CoopHome" target="_blank"><i style="font-size:30px;" class="icon-facebook"></i></a></h3>
+			</div>
+			<div class="pricing-table-signup-facebook text-center span1">
+				<h3><a href="https://www.twitter.com/coopathomemb" target="_blank"><i style="font-size:30px;" class="icon-twitter"></i></a></h3>
+			</div>
+        <!-- div class="pricing-table-signup-facebook text-center span1">
+                  <h3><a href="http://www.instagram.com/coopathome" target="_blank"><i style="font-size:30px;" class="icon-instagram"></i></a></h3>
+                </div -->
+    	</div>
+  	</div>
+</div>
+
+<!-- Logo --> 
+<a href="index.html" id="logo"><img src="img/blacklogo.svg" alt="logo" itemprop="logo" style="width: 500px; max-width: 100%;"/></a> 
+
+<!-- Main Navbar -->
+<div class="navbar-cont">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container"><a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse"><i class="icon-align-justify"></i></a>
+              <div class="nav-collapse collapse navbar-responsive-collapse">
+                <ul class="nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<i class="icon-angle-down"></i></a> 
+                    
+                    <!-- Dropdown Navbar -->
+                    <ul class="dropdown-menu">
+                      <li><a href="appliances.html">Appliances</a></li>
+                      <li><a href="computers.html">Computers</a></li>
+                      <li><a href="av.html">Audio/Video</a></li>
+                      <li><a href="photography.html">Photography</a></li>
+                      <li><a href="living.html">Living</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<i class="icon-angle-down"></i></a> 
+                    
+                    <!-- Dropdown Navbar -->
+                    <ul class="dropdown-menu">
+                      <li><a href="http://sdnet.coopathome.ca/">SDNet</a></li>
+                      <li><a href="repair.html">Computer Service</a></li>
+                      <li><a href="design.html">Web Design</a></li>
+                      <li><a href="consult.html">Audio/Video Consultation</a></li>
+                      <li><a href="financing.html">Financing</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="http://help.coopathome.ca/">Support</a></li>
+                </ul>
+                
+
+                <!-- Newsletter -->
+                <form action="signup.html" class="header-search">
+                  <fieldset>
+                    <button><h5>EMAIL</h5></button>
+                  </fieldset>
+                </form>
+
+                <!-- Navbar Search -->
+                <!-- form action="promo/boxingweek.pdf" class="header-search">
+                  <fieldset>
+                    <button><h5>BOXING WEEK FLYER</h5></button>
+                  </fieldset>
+                </form -->
+               
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div class="container">
+  <div class="row">
+    <div class="span12">
+<img src="promo/ashley.jpg" style="padding: 10px 10px 10px 20px; border: 1px solid #ddd; margin-top: 10px; width: 90%;">
+      <h2 class="text-center">coming <span>soon!</span></h2>
+    </div>
+  </div>
+</div>
+<br />
+<hr class="bordered" />-->
+
+<div class="container">
+  <div class="row">
+    <div class="span12"> 
+      
+      <!-- Flex Slider -->
+      <div class="flexslider">
+        <ul class="slides">
+          <!--<li><img src="img/banner/slider22.jpg" alt="Galaxy Tab Pro" /></li>
+          <li><img src="img/banner/slider23.jpg" alt="Samsung 43-inch Plasma F4500 Series TV SALE $399" /></li>
+          <li><img src="img/banner/slider24.jpg" alt="SAMSUNG  65-inch HU9000 UHD TV" /></li>-->
+          	<li>
+          		<img src="http://cl.ly/YZGo/Untitled-12.jpg">
+          	</li>
+			        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<!--<hr class="bordered" />-->
+
+<!-- Featured Products -->
+
+<!-- Products List -->
+<!--<div class="products-list">
+  <div class="container">
+    <!--<h3><span>Featured</span> Products</h3>--*>
+    <ul class="thumbnails">
+      
+      <!--<div class="span2" style="content: "";"></div>--*>
+      <!-- Products Single Box --*>
+      <!--<li class="span12">
+        <div class="thumbnail">
+        	<a href="downloads/ashley_voice.pdf">
+        		<img src="img/ashley_ad.png" alt="Scratch & Save" />
+        	</a>
+        </div>
+      </li>--*>
+      
+      <!-- Products Single Box --*>
+      <li class="span6">
+        <div class="thumbnail"><img src="img/feat_kitchenaid1.jpg" alt="Scratch & Save" /><!--&nbsp;--*>
+          <!--<h5 style="text-align:center;">Scratch & Save</h5>
+          <h6 style="text-align:center; color:#959595">5-20%</h6>
+          <p class="price">On your purchase</p>
+          <p class="price2"><strong>Saturday December 7th</strong></p>--*></div>
+      </li>
+      
+      <!-- Products Single Box --*>
+      <!--<li class="span6">
+        <div class="thumbnail"><!--<a href="appliances.html">--*><img src="img/feat_kitchenaid2.jpg" alt="kitchen aid 14 cup coffee maker"/><!--</a>--*>
+          <!--<h5 style="text-align:center;">KitchenAid 14 Cup Coffee Maker</h5>
+          <h6 style="text-align:center; color:#959595">KCM1402/BCG111OB</h6>
+          <p class="price">Coffee Grinder ($69 Value)</p>
+          <p class="price2"><strong>$129</strong></p>
+        <span class="new">+Free Coffee Grinder</span>--*></div>
+      </li>--*>
+      
+      <li class="span6">
+        <div class="thumbnail"><img src="img/feat_whirlpool1.jpg" alt="Scratch & Save" /></div>
+      </li>
+      
+      <!-- Products Single Box --*>
+      <!--<li class="span6">
+        <div class="thumbnail"><!--<a href="appliances.html">--*><img src="img/feat_whirlpool2.jpg" alt="kitchen aid 14 cup coffee maker"/></div>
+      </li>--*>
+      
+    </ul>
+  </div>
+</div>-->
+
+
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <h2 class="text-center margin-top margin-bottom">Our <span>Services</span></h2>
+      
+      <!-- Services List -->
+      <ul class="thumbnails about-list">
+        
+        <!-- Service Single -->
+        <li class="span4">
+          	<div class="thumbnail">
+          		<a href="http://sdnet.coopathome.ca/"><br>
+          			<img src="img/sdnet--white.svg" alt="sdnet" style="max-width: 220px;">
+          			<!--<img src="img/sdnet.png">-->
+          		</i></a>
+          	</div>
+        </li>
+        
+        <!-- Service Single -->
+        <!--<li class="span3">
+          <div class="thumbnail"><a href="consult.html"><i class="icon-home icon-service"></i></a>
+            <div class="caption">
+              <h3><a href="consult.html">Home Audio / Video installation</a></h3>
+            </div>
+          </div>
+        </li>-->
+        
+        <!-- Service Single -->
+        <li class="span4">
+          <div class="thumbnail"><a href="design.html"><i class="icon-edit icon-service"></i></a>
+            <div class="caption">
+              <h3><a href="design.html">Web Design</a></h3>
+            </div>
+          </div>
+        </li>
+        
+        <!-- Service Single -->
+        <li class="span4">
+          <div class="thumbnail"><a href="repair.html"><i class="icon-wrench icon-service"></i></a>
+            <div class="caption">
+              <h3><a href="repair.html">Computer service</a></h3>
+            </div>
+          </div>
+        </li>
+      </ul>
+      
+   </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer" itemscope itemtype="http://schema.org/LocalBusiness">
+  <div class="container">
+    <div class="row"> 
+ 
+     <!-- Footer Info -->
+       <!-- Portfolio Single Images -->
+    <div class="span3">
+      <div class="products-list products-list-simple">
+        <ul class="thumbnails">
+          
+          <!-- Products Single Box -->
+          <li class="span3">
+            <h5><i class="icon-globe"></i>Take a look at our store</h5>
+            <div class="thumbnail"><img src="img/store_thumb.jpg" alt="Gallery" class="folio" style="opacity: 0.5;"/>
+              <div class="folio-detail"><a href="img/store_commandcentre.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
+              <div class="folio-detail"><a href="img/store_ashley.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
+              <!--<div class="folio-detail"><a href="products/store.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>-->
+            </div>
+          </li>
+          </ul>
+      
+</div></div>
+      <!-- Footer Contact -->
+      <div class="span3">
+        <h5><i class="icon-asterisk"></i>Contact Us</h5>
+		<ul class="footer-contact">
+          <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="icon-map-marker"></i><span itemprop="streetAddress">555 South Railway</span>, <span itemprop="addressLocality">Winkler</span>.<meta itemprop="addressRegion" content="Manitoba"><meta itemprop="addressCountry" content="Canada"></li>
+          <li><i class="icon-phone"></i><strong>T.</strong> <span itemprop="telephone">204-325-8777</span></li>
+          <li><i class="icon-mobile-phone"></i><strong>F.</strong> <span itemprop="faxNumber">204 325 9356</span></li>
+          <li><i class="icon-facebook"></i><a href="https://www.facebook.com/CoopHome" target="_blank">Facebook</a></li>
+          
+          <meta itemprop="openingHours" content="Mo-We 09:00-06:00">
+          <meta itemprop="openingHours" content="Th-Fr 09:00-09:00">
+          <meta itemprop="openingHours" content="Sa 09:00-06:00">
+          
+        </ul>
+      </div>
+      <div class="footer-links">
+      <div class="span3">
+        <h5><i class="icon-info"></i>Information</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="http://sdnet.coopathome.ca/">SDNet</a></li>
+          <li><a href="ehf.html">EHF</a></li>
+          <li><a href="http://www.phoenixamd.com/GA-appliance.html#about-appl">Extended Service Plan</a></li>
+        </ul>
+      </div>
+      
+      <div class="span3">
+        <h5><i class="icon-comment"></i>Customer Service</h5>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="returns.html">Returns + Exchanges</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="repair.html">Computer Services</a></li>
+        </ul>
+      </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<meta itemprop="name" content="Co-op at Home">
+
+<div class="header">
+<div class="container">
+    <div class="row"> 
+      
+      <!-- Secondary Menu -->
+      <ul class="nav nav-pills span6">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="appliances.html">Appliances</a></li>
+        <li><a href="computers.html">Computers</a></li>
+        <li><a href="av.html">Audio/Video</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="living.html">Living</a></li>
+        <li><a href="http://sdnet.coopathome.ca/">SDNet</a></li>
+        <li><a href="repair.html">Computer Services</a></li>
+        <li><a href="design.html">Web Design</a></li>
+        <li><a href="consult.html">A/V Consultation</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://plus.google.com/107573968644470588446/" rel="publisher" target="_blank">Google+</a></li>
+      </ul>
+      
+     </div>
+   </div>
+ </div>
+<br>
+<!-- Copy -->
+<div class="copy">
+	<div class="container">
+    	<div class="row">
+      		<div class="span12"> <!-- Cards -->
+        		<p class="text-center">  
+        			<a href="index.html"><img src="img/logo-small.png" alt="logo" width="200" /></a>
+        			<br>&copy; 2013&ndash;
+		        	<script type="text/javascript">
+		        		var currentDate = new Date()
+		        	  	var year = currentDate.getFullYear()
+		        	 	document.write(year)
+		        	</script>
+		        	&nbsp;|&nbsp;
+		        	A Part of <a href="http://winklercoop.com">Winkler Co-op</a>
+        		</p>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+<!-- to Top -->
+<div id="toTop">
+	<i class="icon-chevron-up icon-white"></i>
+</div>
+
+<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
+</body>
+</html>
