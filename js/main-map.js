@@ -32,13 +32,15 @@ function initialize() {
         var styles = [
         {
           stylers: [
-           { hue: "#BF8040" },
-            { saturation: -20 }
+//           { hue: "#BF8040" },
+             { hue: "#84c447" },
+//            { saturation: -20 }
           ]
         },{
           featureType: "landscape",
          stylers: [
            { color: "#ece7e3" },
+//           { color: "#76c044" },
            { visibility: "simplified" },
 //           { lightness: "60" }
          ]
