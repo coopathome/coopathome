@@ -73,6 +73,7 @@ module.exports = function(grunt) {
 	            'build/about.html': 'about.html',
 	            'build/appliances.html': 'appliances.html',
 	            'build/av.html': 'av.html',
+	            'build/blackfriday.html': 'blackfriday.html',
 	            'build/computers.html': 'computers.html',
 	            'build/consult.html': 'consult.html',
 	            'build/contact.html': 'contact.html',
