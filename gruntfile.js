@@ -90,6 +90,7 @@ module.exports = function(grunt) {
 			    'build/financing.html': 'financing.html',
 	            'build/specials.html': 'specials.html',
 	            'build/help/index.html': 'help/index.html',
+	            'build/boxingweeksale.html': 'boxingweeksale.html',
 		      }
 //		      files: [{
 //                  expand: true,

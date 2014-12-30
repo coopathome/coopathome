@@ -1,0 +1,92 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  	margin: 0;
+  	padding: 0;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body { height: 100%; }
+
+body {
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	color: #6A747C;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #74BB37;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.hero-title {
+	font-size: 7.5rem;
+}
+
+.button {
+	border-radius: 0.25rem;
+	background: #0092C0;
+	color: white; 
+	padding: 11px; 
+	display: inline-block;
+}
+
+.product {
+	width: 21.25%;
+	margin-right: 5%;
+	float: left;
+}
+
+.product:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+.product:nth-of-type(4n+1) {
+	clear: both;
+	border: 1px solid red;
+}
+
+.product-reg, .product-save, .product-brand {
+	font-size: 0.875rem;
+	display: block;
+}
+
+.product-brand, .product-title {
+	font-weight: bold;
+}
+
+.site-footer {
+	display: block;
+	clear: both;
+}
