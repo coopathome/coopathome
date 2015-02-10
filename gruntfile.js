@@ -91,6 +91,7 @@ module.exports = function(grunt) {
 	            'build/specials.html': 'specials.html',
 	            'build/help/index.html': 'help/index.html',
 	            'build/boxingweeksale.html': 'boxingweeksale.html',
+	            'build/signup.html': 'signup.html',
 		      }
 //		      files: [{
 //                  expand: true,

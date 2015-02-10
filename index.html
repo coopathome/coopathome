@@ -59,6 +59,18 @@
 	<script type="text/javascript" src="js/segment.js"></script>
 	<script src="js/modernizr.custom.js"></script>
 	
+	<style>
+		.button {
+			background: #0092C0;
+			color: #fff;
+			border-radius: 0.25rem;;
+		}
+		.button:hover {
+			color: #fff;
+			background: #74BC37;
+		}
+	</style>
+	
 	<!--SVG Fallback-->
 	<script>
 		if(!Modernizr.svg) {
@@ -205,6 +217,21 @@
           <!--<li><img src="img/banner/slider22.jpg" alt="Galaxy Tab Pro" /></li>
           <li><img src="img/banner/slider23.jpg" alt="Samsung 43-inch Plasma F4500 Series TV SALE $399" /></li>
           <li><img src="img/banner/slider24.jpg" alt="SAMSUNG  65-inch HU9000 UHD TV" /></li>-->
+          	<li>
+          		<a href="signup.html">
+	          		<picture>
+	          			<!--[if IE 9]><video style="display: none;"><![endif]-->
+	          			<source srcset="img/banner/slider-dishwasher-l.jpg, img/banner/slider-dishwasher-l.jpg 2x" media="(min-width: 800px)">
+	          			<source srcset="img/banner/slider-dishwasher-m.jpg, img/banner/slider-dishwasher-l.jpg 2x" media="(min-width: 600px)">
+	          			<source srcset="img/banner/slider-dishwasher-sm.jpg, img/banner/slider-dishwasher-m.jpg 2x" media="(min-width: 0px)">
+	          			<!--[if IE 9]></video><![endif]-->
+	          			<img srcset="img/banner/slider-dishwasher-l.jpg, img/banner/slider-dishwasher-l.jpg 2x" alt="Win a Dishwasher!">
+	          			<noscript>
+	          				<img src="img/banner/slider-dishwasher-l.jpg" alt="Win a Dishwasher!">
+	          			</noscript>
+	          		</picture>
+	          	</a>
+          	</li>
 			<li>
 				<picture>
 					<!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -516,6 +543,21 @@
   </div>
 </div>-->
 
+<div class="container">
+	<div class="row columns">
+    	<div class="span12 text-center margin-top margin-bottom">
+      		<h2><span>Win</span> a Dishwasher!</h2>
+    	</div>
+    	<div class="span6 text-center">
+    		You could win a $899 dishwasher! To enter, simply sign up for our e-mail list.<br>
+    		If you don't want to sign up for our e-mail list, you can fill out a ballot at our store.
+    	</div>
+    	<a href="signup.html" class="span6 text-center button margin-bottom column">
+    		Subscribe and Enter
+    	</a>
+    </div>
+</div>
+<hr>
 
 <div class="container">
   <div class="row">
