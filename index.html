@@ -69,6 +69,63 @@
 			color: #fff;
 			background: #74BC37;
 		}
+    .gift-registry {
+      background: #f8f8f8;
+      background: red;
+      overflow: hidden;
+      background: url('/img/wavy-pattern.jpg') repeat;
+    }
+    .gift-registry h2 {
+      /*font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+      text-transform: none;
+      font-size: 2.5rem;*/
+    }
+    .gift-registry .box {
+       border: 1px solid #ddd; 
+       margin: 2rem; 
+       padding: 1rem; 
+       overflow: visible; 
+       position: relative; 
+    }
+    ::selection {
+      background: rgba(15,107,163,0.75);
+      color: #fff;
+    }
+    .heart {
+      color: #0092C0;
+      font-size: 2.5rem;
+/*      position: absolute;*/
+/*      margin: 1rem auto -2rem;*/
+/*      display: inline-block;*/
+/*      bottom: 0;*/
+      text-align: center;
+      display: block;
+      margin-bottom: -1.5rem;
+      z-index: 999;
+      -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: #0092C0;
+    }
+    .span-whatever {
+      width: 50%;
+      float: left;
+      margin: 0;
+      padding: 0.5rem;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+    .span-whatever:first-of-type {
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #ddd;
+    }
+    @media only screen and (max-width : 640px) {
+      .span-whatever {
+        float: none;
+        width: 100%;
+        clear: both;
+      }
+    }
 	</style>
 	
 	<!--SVG Fallback-->
@@ -111,8 +168,8 @@
 
 <!-- Header -->
 <div class="header">
-	<div class="container">
-    	<div class="row"> 
+  <div class="container">
+    <div class="row"> 
      
       <!--<div class="pricing-table-signup-coop text-center span2" style="float:left;">
         <h3><a href="http://www.winklercoop.com/2012/" target="_blank"><img src="img/coop.png" alt="co-op" width="120px"></a></h3>
@@ -120,11 +177,12 @@
 			<div class="pricing-table-signup-facebook text-center span1">
 				<h3><a href="https://www.facebook.com/CoopHome" target="_blank"><i style="font-size:30px;" class="icon-facebook"></i></a></h3>
 			</div>
-         <div class="pricing-table-signup-facebook text-center span1">
-                  <h3><a href="http://www.twitter.com/coopathomemb" target="_blank"><i style="font-size:30px;" class="icon-twitter"></i></a></h3>
-                </div 
-    	</div>
-  	</div>
+     
+     <div class="pricing-table-signup-facebook text-center span1">
+        <h3><a href="http://www.twitter.com/coopathomemb" target="_blank"><i style="font-size:30px;" class="icon-twitter"></i></a></h3>
+      </div> 
+    </div>
+  </div>
 </div>
 
 <!-- Logo --> 
@@ -530,6 +588,32 @@
 </div>-->
 
 <div class="container">
+  
+  <div class="row gift-registry">
+    <div class="box">
+      
+      <div class="span-whatever">
+        <h1>Gift Registry</h1>
+        <h4>Now Available</h4>
+      </div>
+      <div class="span-whatever">
+        <p>We have what you need as you start your new life together</p>
+        
+        <ul>
+          <li>Appliances</li>
+          <li>Furniture</li>
+          <li>Electronics</li>
+          <li>Computers</li>
+        </ul>
+        
+        <p>Register at our Downtown Winkler location and ask us how you can receive a 10% discount on all the items that you list in your gift regsitry.* Ask for Rachel.</p>   
+      </div>
+      
+      <span class="heart">&#9829;</span>
+    
+    </div>
+  </div>
+  
   <div class="row">
     <div class="span12">
       <h2 class="text-center margin-top margin-bottom">Our <span>Services</span></h2>
@@ -646,7 +730,7 @@
 <meta itemprop="name" content="Co-op at Home">
 
 <div class="header">
-<div class="container">
+  <div class="container">
     <div class="row"> 
       
       <!-- Secondary Menu -->
@@ -666,10 +750,12 @@
         <li><a href="https://plus.google.com/107573968644470588446/" rel="publisher" target="_blank">Google+</a></li>
       </ul>
       
-     </div>
-   </div>
- </div>
+    </div>
+  </div>
+</div>
+
 <br>
+
 <!-- Copy -->
 <div class="copy">
 	<div class="container">

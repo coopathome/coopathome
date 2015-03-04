@@ -18,7 +18,7 @@ A.class2:active {text-decoration: none; color: #FFF;}
 
 h1, h2, h3, h4, h5, h6, h7{
 	font-weight: normal;
-	font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+	font-family: Roboto Condensed, 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	margin-left: auto;
@@ -106,7 +106,7 @@ html {
 
 body {
 	background: #FFF;
-	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	font: normal 14px/20px 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #333;
 }
 
@@ -159,7 +159,7 @@ body {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+	font-family: Roboto Condensed, 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #FFF;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -483,7 +483,7 @@ body {
 	margin: 10px 0 20px 0;
 	padding-top: 19px;
 	border-top: 1px solid #CCC;
-	font: normal 17px/20px Roboto Condensed, Arial, Helvetica, sans-serif;
+	font: normal 17px/20px Roboto Condensed,'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #999;
 	text-align: right;
 	text-transform: uppercase;
@@ -504,7 +504,7 @@ body {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	font: normal 14px/40px Roboto Condensed, Arial, Helvetica, sans-serif;
+	font: normal 14px/40px Roboto Condensed, 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #FFF;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -564,7 +564,7 @@ body {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #999;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -624,7 +624,7 @@ body {
 	padding: 0 20px;
 	height: 40px;
 	border-radius: 0;
-	font: normal 14px/40px Roboto Condensed, Arial, Helvetica, sans-serif;
+	font: normal 14px/40px 'Roboto Condensed', 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #FFF;
 	text-align: center;
 	text-shadow: none;
@@ -742,7 +742,7 @@ body {
 	background: none;
 	filter: none;
 	border-top: 1px dotted #E5E5E5;
-	font: normal 12px/29px Arial, Helvetica, sans-serif;
+	font: normal 12px/29px 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #999;
 	text-align: left;
 	text-transform: none;
@@ -783,7 +783,7 @@ body {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	font: normal 14px/30px Roboto Condensed, Arial, Helvetica, sans-serif;
+	font: normal 14px/30px 'Roboto Condensed', 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #CCC;
 	text-transform: uppercase;
 	float: left
@@ -842,7 +842,7 @@ body {
 
 .list-desc li {
 	margin-bottom: 5px;
-	font: italic 14px/30px Arial, Helvetica, sans-serif;
+	font: italic 14px/30px 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #333;
 }
 
@@ -1050,7 +1050,7 @@ address a:hover {
 .products-filter p a {
 	margin-right: 20px;
 	font-size: 14px;
-	font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #333;
 	text-transform: uppercase;
 }
@@ -1097,7 +1097,7 @@ address a:hover {
 	background: #FFF;
 	border: 1px solid #E5E5E5;
 	border-radius: 0;
-	font: normal 12px/30px Arial, Helvetica, sans-serif;
+	font: normal 12px/30px 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #999;
 	float: right;
 }
@@ -1117,7 +1117,7 @@ address a:hover {
 
 .select-option label {
 	margin-bottom: 0;
-	font: normal 12px/20px Arial, Helvetica, sans-serif;
+	font: normal 12px/20px 'Helvetica Neue', 'Segue UI', Helvetica, Arial, sans-serif;
 	color: #999;
 }
 

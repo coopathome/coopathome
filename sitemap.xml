@@ -4,90 +4,90 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.coopathome.ca/</loc>
-  <lastmod>2013-09-30T16:22:24+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  	<loc>http://www.coopathome.ca/index.html</loc>
-  	<lastmod>2013-09-30T16:22:24+00:00</lastmod>
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->  
+  <url>
+    <loc>http://coopathome.ca/</loc>
+    <lastmod>2015-02-24T16:22:24+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+  	<loc>http://coopathome.ca/appliances.html</loc>
+    	<lastmod>2014-09-30T16:22:20+00:00</lastmod>
+   	<changefreq>monthly</changefreq>
+  </url>
+  <url>
+    	<loc>http://coopathome.ca/computers.html</loc>
+    	<lastmod>2014-09-30T16:22:22+00:00</lastmod>
+    	<changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/av.html</loc>
+    <lastmod>2014-09-30T16:22:20+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/photography.html</loc>
+    <lastmod>2014-09-30T16:22:25+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/living.html</loc>
+    <lastmod>2014-09-30T16:22:24+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://sdnet.coopathome.ca/</loc>
+    <lastmod>2014-09-30T16:22:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/repair.html</loc>
+    <lastmod>2014-09-30T16:22:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/design.html</loc>
+    <lastmod>2014-09-30T16:22:23+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/consult.html</loc>
+    <lastmod>2014-09-30T16:22:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/about.html</loc>
+    <lastmod>2014-09-30T16:22:20+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/contact.html</loc>
+    <lastmod>2014-09-30T16:22:23+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/ehf.html</loc>
+    <lastmod>2014-09-30T16:22:24+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/returns.html</loc>
+    <lastmod>2014-09-30T16:22:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://coopathome.ca/delivery.html</loc>
+    <lastmod>2014-09-30T16:22:23+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+  	<loc>http://coopathome.ca/signup.html</loc>
+  	<lastmod>2015-01-21T16:12:23+00:00</lastmod>
   	<changefreq>monthly</changefreq>
-</url>
-<url>
-	<loc>http://www.coopathome.ca/appliances.html</loc>
-  	<lastmod>2013-09-30T16:22:20+00:00</lastmod>
- 	<changefreq>monthly</changefreq>
-</url>
-<url>
-  	<loc>http://www.coopathome.ca/computers.html</loc>
-  	<lastmod>2013-09-30T16:22:22+00:00</lastmod>
-  	<changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/av.html</loc>
-  <lastmod>2013-09-30T16:22:20+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/photography.html</loc>
-  <lastmod>2013-09-30T16:22:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/living.html</loc>
-  <lastmod>2013-09-30T16:22:24+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/sdnet.html</loc>
-  <lastmod>2013-09-30T16:22:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/repair.html</loc>
-  <lastmod>2013-09-30T16:22:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/design.html</loc>
-  <lastmod>2013-09-30T16:22:23+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/consult.html</loc>
-  <lastmod>2013-09-30T16:22:22+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/about.html</loc>
-  <lastmod>2013-09-30T16:22:20+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/contact.html</loc>
-  <lastmod>2013-09-30T16:22:23+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/ehf.html</loc>
-  <lastmod>2013-09-30T16:22:24+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/returns.html</loc>
-  <lastmod>2013-09-30T16:22:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.coopathome.ca/delivery.html</loc>
-  <lastmod>2013-09-30T16:22:23+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-	<loc>http://coopathome.ca/signup.html</loc>
-	<lastmod>2014-07-21T16:12:23+00:00</lastmod>
-	<changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://help.coopathome.ca/</loc>
+    <lastmod>2014-09-30T16:22:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
