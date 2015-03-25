@@ -126,6 +126,77 @@
         clear: both;
       }
     }
+    .advert--home-movie--sponsors {
+      text-align: center;
+    }
+    .advert--home-movie--sponsors .sponsor-logo {
+      padding: 1rem;
+      max-width: 8rem;
+      display: inline-block;
+      width: 33%;
+      box-sizing: border-box;
+      max-height: 7.5rem;
+    }
+    a.button {
+      padding: 0.5rem 1rem;
+      display: inline-block;
+    }
+    .advert--home-movie a.button {
+      border: 1px solid #fff;
+      margin-top: 1rem;
+    }
+    img.ticket {
+       height: 2.25rem;
+       margin-top: 1rem;
+    }
+    .advert--home-movie h1, 
+    .advert--home-movie h2, 
+    .advert--home-movie h3, 
+    .advert--home-movie h4,{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .home-character {
+      position: absolute;
+      bottom: -2rem;
+      transition-duration: 0.25s;
+    }
+    .home-character.oh:hover {
+      -webkit-transform: scale(1.1) rotate(10deg);
+    }
+    .home-character.tip:hover {
+      -webkit-transform: scale(1.2) rotate(-10deg);
+    }
+    .home-character.oh {
+      right: -2rem;
+      height: 10rem;
+    }
+    .home-character.tip {
+      left: -4rem;
+      height: 15rem;
+    }
+    .flyer {
+      border: 1px solid #6A747C;
+      border-radius: 4px;
+      padding: 1rem;
+      box-sizing: border-box;
+      margin: auto;
+      display: inline-block;
+    }
+    .flyers {
+      display: inline-block;
+    }
+    .flyers a {
+      margin: 0 1rem;
+      max-width: 50%;
+      float: left;
+    }
+    .flyers:hover a {
+      opacity: 0.5;
+      transition: opacity 0.35s ease-in-out;
+    }
+    .flyers:hover a:hover {
+      opacity: 1;
+    }
 	</style>
 	
 	<!--SVG Fallback-->
@@ -174,13 +245,14 @@
       <!--<div class="pricing-table-signup-coop text-center span2" style="float:left;">
         <h3><a href="http://www.winklercoop.com/2012/" target="_blank"><img src="img/coop.png" alt="co-op" width="120px"></a></h3>
                 </div>-->
-			<div class="pricing-table-signup-facebook text-center span1">
-				<h3><a href="https://www.facebook.com/CoopHome" target="_blank"><i style="font-size:30px;" class="icon-facebook"></i></a></h3>
+      <div class="pricing-table-signup-facebook text-center span1">
+			  <h3><a href="https://www.facebook.com/CoopHome" target="_blank"><i style="font-size:30px;" class="icon-facebook"></i></a></h3>
 			</div>
      
-     <div class="pricing-table-signup-facebook text-center span1">
+      <div class="pricing-table-signup-facebook text-center span1">
         <h3><a href="http://www.twitter.com/coopathomemb" target="_blank"><i style="font-size:30px;" class="icon-twitter"></i></a></h3>
       </div> 
+    
     </div>
   </div>
 </div>
@@ -402,7 +474,7 @@
       			</picture>
       		</li>
           <!--<li><img src="img/banner/slider13.jpg" alt="klipsch audio" /></li>-->
-          	<li>
+          <li>
       			<picture>
       				<!--[if IE 9]><video style="display: none;"><![endif]-->
       				<source srcset="img/banner/slider13.jpg, img/banner/slider13.jpg 2x" media="(min-width: 800px)">
@@ -515,7 +587,7 @@
       			</picture>
       		</li>
           <!--<li><img src="img/banner/slider21.jpg" alt="winkler computer service" /></li>-->
-          	<li>
+          <li>
       			<picture>
       				<!--[if IE 9]><video style="display: none;"><![endif]-->
       				<source srcset="img/banner/slider21.jpg, img/banner/slider21.jpg 2x" media="(min-width: 800px)">
@@ -526,6 +598,30 @@
       				<noscript>
       					<img src="img/banner/slider21.jpg" alt="winkler computer service">
       				</noscript>
+      			</picture>
+      		</li>
+      		<li>
+      			<picture>
+      				<!--[if IE 9]><video style="display: none;"><![endif]-->
+      				<!--<source srcset="img/banner/slider21.jpg, img/banner/slider21.jpg 2x" media="(min-width: 800px)">
+      				<source srcset="img/banner/slider21-m.jpg, img/banner/slider21.jpg 2x" media="(min-width: 600px)">
+      				<source srcset="img/banner/slider21-sm.jpg, img/banner/slider21-m.jpg 2x" media="(min-width: 0px)">-->
+      				<!--[if IE 9]></video><![endif]-->
+      				<!--<img srcset="img/banner/slider21.jpg, img/banner/slider21.jpg 2x" alt="winkler computer service">
+      				<noscript>
+      					<img src="img/banner/slider21.jpg" alt="winkler computer service">
+      				</noscript>-->
+      				  <img src="img/home/banner1.jpg">
+      			</picture>
+      		</li>
+      		<li>
+      			<picture>
+      				  <img src="img/home/banner2.jpg">
+      			</picture>
+      		</li>
+      		<li>
+      			<picture>
+      				  <img src="img/home/banner3.jpg">
       			</picture>
       		</li>
         </ul>
@@ -587,6 +683,62 @@
   </div>
 </div>-->
 
+<div class="advert advert--home-movie row margin-top margin-bottom" style="background: #822c87; background: #0092C0; color: #fff; padding-top: 2rem; padding-bottom: 2rem;">
+  <div class="container">
+    <div class=" text-center" style="max-width: 100%; margin-left: 0;">
+      <h3>Kids Furniture</h3>
+      <a href="/home-movie/" style="color: #fff;">
+        <h1>Home Sale</h1>
+      </a>
+      <br>
+      <h4>Win a set of Ashley children's furniture</h4>
+      <p>Win your choice of one of two sets. Both sets include headboard, footboard, rails, dresser and mirror, mattress.</p>
+      <h4>A $1000 Value</h4>
+    </div>
+    <div class=" text-center advert--home-movie--sponsors" style="opacity: 0.75;">
+      <a href="/" class="sponsor-logo">
+        <img src="/img/home/coopathome.svg" alt="Co-op@home Logo">
+      </a>
+      <a href="http://www.landmarkcinemas.com/winkler" class="sponsor-logo">
+        <img src="/img/home/landmark.svg" alt="Landmark Cinemas Logo">
+      </a>
+      <a href="http://pembinavalleyonline.com/index.php?option=com_content&view=category&layout=blog&id=55&Itemid=477" class="sponsor-logo">
+        <img src="/img/home/eagle.png" alt="The Eagle 93.5 Logo">
+      </a>
+      <p>Sponsored by Co-op@home, Landmark Cinemas (Southland Cinemas) and The Eagle</p>
+    </div>
+    <div class="span12 margin-top" style="position: relative; overflow: display;">
+      <img src="/img/home/girls.jpg" style="width: 50%; max-width: 570px; float: left;">
+      <img src="/img/home/boys.jpg" style="width: 50%; max-width: 570px; float: left;">
+      <img src="/img/home/oh.png" class="home-character oh">
+      <img src="/img/home/tip.png" class="home-character tip">
+    </div>
+    <div class="span12">
+      <div class="row margin-top text-center">
+          <h2>Two Ways to Win</h2>
+
+        <div class="span5 margin-top">
+          <h4>Bring in any Southland Cinemas movie ticket stub</h4>
+          Dated March 18–April 10<br>
+          <img src="/img/home/ticket.svg" class="ticket">
+        </div>
+        <div class="span2 margin-top">
+          <h6>or</h6>
+        </div>
+        <div class="span5 text-center margin-top">
+          <h4>Write two paragraphs on why you love Co-op</h4> 
+          No purchase necessary.<br>
+          <a href="/home-movie/" class="button">Enter</a>
+        </div>
+      </div>
+      <div class=" margin-top text-center">
+       <h4>Winner will be Drawn</h4> 
+       <h2>April 11</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   
   <div class="row gift-registry">
@@ -615,6 +767,54 @@
   </div>
   
   <div class="row">
+    <div class="span12" style="text-align: center;">
+      <h2 class="text-center margin-top margin-bottom">View the current <span>Flyers</span></h2>
+      
+      <div class="flyers">
+        <a href="/downloads/spring-sale.pdf">
+          <img src="/img/flyers/spring-sale-logo.svg" style="max-height: 15rem;">
+          <br><br>
+          <h5>Spring Sale</h5>
+        </a>
+        <a href="/downloads/home-sale.pdf">
+          <img src="/img/flyers/galaxys-greatest.png" style="max-height: 15rem;">
+          <br><br>
+          <h5>The Galaxy's Greatest Home&nbsp;Sale</h5>
+        </a>
+      </div>
+      
+      <!-- Services List -->
+      <!--<ul class="thumbnails about-list">
+        
+        <li class="span6" style="text-align: center;">
+          <div class="flyer">
+            <img src="/img/flyers/spring-sale-logo.svg" style="max-height: 15rem;">
+          </div>
+          <!--<div class="thumbnail">
+            <a href="/downloads/spring-sale.pdf">
+          	  <img src="/img/flyers/spring-sale.jpg">
+          			<!--<img src="img/sdnet.png">--*>
+            </a>
+          </div>--*>
+        </li>
+        
+        <li class="span6" style="text-align: center;">
+          <div class="flyer">
+            <img src="/img/flyers/galaxys-greatest.png" style="max-height: 15rem;">
+          </div>
+          <!--<div class="thumbnail"><a href="/downloads/home-sale.pdf"><img src="/img/flyers/galaxys-greatest.jpg"></a>
+            <div class="caption">
+              <h3><a href="/downloads/home-sale.pdf">Web Design</a></h3>
+            </div>
+          </div>--*>
+        </li>
+    
+      </ul>-->
+      
+   </div>
+  </div>
+  
+  <div class="row">
     <div class="span12">
       <h2 class="text-center margin-top margin-bottom">Our <span>Services</span></h2>
       
@@ -623,12 +823,12 @@
         
         <!-- Service Single -->
         <li class="span4">
-          	<div class="thumbnail">
-          		<a href="http://sdnet.coopathome.ca/"><br>
-          			<img src="img/sdnet.svg" alt="sdnet" style="max-width: 220px;">
+          <div class="thumbnail">
+            <a href="http://sdnet.coopathome.ca/"><br>
+          	  <img src="img/sdnet.svg" alt="sdnet" style="max-width: 220px;">
           			<!--<img src="img/sdnet.png">-->
-          		</i></a>
-          	</div>
+            </a>
+          </div>
         </li>
         
         <!-- Service Single -->
@@ -671,26 +871,27 @@
  
      <!-- Footer Info -->
        <!-- Portfolio Single Images -->
-    <div class="span3">
-      <div class="products-list products-list-simple">
-        <ul class="thumbnails">
+      <div class="span3">
+        <div class="products-list products-list-simple">
+          <ul class="thumbnails">
           
-          <!-- Products Single Box -->
-          <li class="span3">
-            <h5><i class="icon-globe"></i>Take a look at our store</h5>
-            <div class="thumbnail"><img src="img/store_thumb.jpg" alt="Gallery" class="folio" />
-              <div class="folio-detail"><a href="img/store_commandcentre.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
-              <div class="folio-detail"><a href="img/store_ashley.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
-              <!--<div class="folio-detail"><a href="products/store.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>-->
-            </div>
-          </li>
+            <!-- Products Single Box -->
+            <li class="span3">
+              <h5><i class="icon-globe"></i>Take a look at our store</h5>
+              <div class="thumbnail"><img src="img/store_thumb.jpg" alt="Gallery" class="folio" />
+                <div class="folio-detail"><a href="img/store_commandcentre.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
+                <div class="folio-detail"><a href="img/store_ashley.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>
+                <!--<div class="folio-detail"><a href="products/store.jpg" class="view-fancybox" rel="tag"><i class="icon-camera"></i></a></div>-->
+              </div>
+            </li>
           </ul>
       
-</div></div>
+        </div>
+      </div>
       <!-- Footer Contact -->
       <div class="span3">
         <h5><i class="icon-asterisk"></i>Contact Us</h5>
-		<ul class="footer-contact">
+		    <ul class="footer-contact">
           <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="icon-map-marker"></i><span itemprop="streetAddress">555 South Railway</span>, <span itemprop="addressLocality">Winkler</span>.<meta itemprop="addressRegion" content="Manitoba"><meta itemprop="addressCountry" content="Canada"></li>
           <li><i class="icon-phone"></i><strong>T.</strong> <span itemprop="telephone">204-325-8777</span></li>
           <li><i class="icon-mobile-phone"></i><strong>F.</strong> <span itemprop="faxNumber">204 325 9356</span></li>
